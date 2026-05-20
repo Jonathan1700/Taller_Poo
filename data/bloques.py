@@ -1,8 +1,3 @@
-# ─────────────────────────────────────────────
-#   DATOS — TODOS LOS BLOQUES Y EJERCICIOS
-#   Para agregar un bloque nuevo, copia el patrón
-#   de cualquier bloque existente y añádelo aquí.
-# ─────────────────────────────────────────────
 
 BLOQUES = {
     "0": {
@@ -148,6 +143,24 @@ BLOQUES = {
             "Ejercicio 1": {
                 "ruta": "data/bloque_8/ejercicio1.py",
                 "desc": "listas"
+            }, 
+            "Ejercicio 2": {
+                "ruta": "data/bloque_8/ejercicio2.py",
+                "desc": "Ejercicio propio"
+            },
+            "Ejercicio 3": {
+                "ruta": "data/bloque_8/ejercicio3.py",
+                "desc": "Ejercicio Propio"
+            }
+        }
+    }, "9":{
+        "nombre": "Bloque 9",
+        "tema": "tuplas",
+        "ejercicios": {
+            "Ejercicio 1": {
+                "ruta": "data/bloque_9/ejercicio1.py",
+                "desc": "Tuplas"
+
             }
         }
     }
