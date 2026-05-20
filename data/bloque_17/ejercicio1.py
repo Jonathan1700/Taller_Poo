@@ -36,7 +36,7 @@ class Usuario(ValidacionMixin):
 
 try:
     u1 = Usuario("Elian", "elian@gmail.com", 22)
-    print(f"{u1.nombre} registrado ✅")
+    print(f"{u1.nombre} registrado ")
 except ValueError as e:
     print(f"Error: {e}")
 

@@ -163,6 +163,96 @@ BLOQUES = {
 
             }
         }
+    }, "10":{
+        "nombre": "Bloque 10",
+        "tema": "diccionarios",
+        "ejercicios": {
+            "Ejercicio 1": {
+                "ruta": "data/bloque_10/ejercicio1.py",
+                "desc": "Diccionarios"
+            }, "Ejercicio 2": {
+                "ruta": "data/bloque_10/ejercicio2.py",
+                "desc": "Ejercicio Propio"
+            }
+        }
+    }, "11":{
+        "nombre": "Bloque 11",
+        "tema": "archivos",
+        "ejercicios": {
+            "Ejercicio 1": {
+                "ruta": "data/bloque_11/ejercicio1.py",
+                "desc": "Lectura y escritura de archivos"
+            }, "Ejercicio 2": {
+                "ruta": "data/bloque_11/ejercicio2.py",
+                "desc": "Ejercicio Propio"
+            }
+        }
+    }, "12":{
+        "nombre": "Bloque 12",
+        "tema": "excepciones",
+        "ejercicios": {
+            "Ejercicio 1": {
+                "ruta": "data/bloque_12/ejercicio1.py",
+                "desc": "Manejo de excepciones"
+            }, "Ejercicio 2": {
+                "ruta": "data/bloque_12/ejercicio2.py",
+                "desc": "Ejercicio Propio"
+            }
+        }
+    }, "13":{
+        "nombre": "Bloque 13",
+        "tema": "módulos",
+        "ejercicios": {
+            "Ejercicio 1": {
+                "ruta": "data/bloque_13/ejercicio1.py",
+                "desc": "Módulos"
+            }, "Ejercicio 2": {
+                "ruta": "data/bloque_13/ejercicio2.py",
+                "desc": "Ejercicio Propio"
+            }
+        }
+    }, "14":{
+        "nombre": "Bloque 14",
+        "tema": "Unpacking",
+        "ejercicios": {
+            "Ejercicio 1": {
+                "ruta": "data/bloque_14/ejercicio1.py",
+                "desc": "Unpacking"
+            }, "Ejercicio 2": {
+                "ruta": "data/bloque_14/ejercicio2.py",
+                "desc": "Ejercicio Propio"
+            }
+        }
+    }, "15":{
+        "nombre": "Bloque 15",
+        "tema": "Decoradores",
+        "ejercicios": {
+            "Ejercicio 1": {
+                "ruta": "data/bloque_15/ejercicio1.py",
+                "desc": "Decoradores"
+            }, "guia": {
+                "ruta": "data/bloque_15/guia.py",
+                "desc": "Guía de Decoradores"
+            }
+        }
+    }, "16":{
+        "nombre": "Bloque 16",
+        "tema": "Expresiones lambda",
+        "ejercicios": {
+            "Ejercicio 1": {
+                "ruta": "data/bloque_16/ejercicio1.py",
+                "desc": "Expresiones lambda"
+            }
+        }
+    }, "17":{
+        "nombre": "Bloque 17",
+        "tema": "Programación funcional",
+        "ejercicios": {
+            "Ejercicio 1": {
+                "ruta": "data/bloque_17/ejercicio1.py",
+                "desc": "Programación funcional"
+            }
+        }
     }
-    
+
 }
