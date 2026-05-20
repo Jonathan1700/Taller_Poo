@@ -21,3 +21,6 @@ class Conjuntos:
 
         print ((A|B) - (A & B)) # Lo que hace es llamar a todo lo que haya en los conjuntos, quitando lo que este repetido en medio
         
+Conjuntos.eje1()
+Conjuntos.eje2()
+Conjuntos.eje3()
