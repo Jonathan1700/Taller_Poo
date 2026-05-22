@@ -80,7 +80,7 @@ class Menu:
                 self._lf(x_ini, inter, y)
                 nombre = bloque['nombre'][:10]
                 tema   = truncar(bloque['tema'], max(8, et))
-                linea  = (f"  {C_RESALT_PRIN}[{RESET}{C_OPCION_PRIN}{key}{RESET}"
+                linea  = (f"  {C_RESALT_PRIN}[{RESET}{C_OPCION_PRIN}{key:>2}{RESET}"
                           f"{C_RESALT_PRIN}]{RESET}  "
                           f"{C_OPCION_PRIN}{nombre:<10}{RESET}  "
                           f"{C_SEPARADOR}│{RESET}  "

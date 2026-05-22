@@ -1,5 +1,5 @@
 class ValidacionMixin:
-    """No se instancia sola — agrega validaciones"""
+
     
     def validar_nombre(self, nombre):
         if not nombre:
@@ -9,18 +9,18 @@ class ValidacionMixin:
         if edad < 0:
             raise ValueError("Edad inválida")
 
-class SistemaEstudiantes(ValidacionMixin):  # hereda el Mixin
+class SistemaEstudiantes(ValidacionMixin):  
     def __init__(self):
         self.estudiantes = []
     
     def registrar(self, nombre, edad):
-        self.validar_nombre(nombre)   # método del Mixin
-        self.validar_edad(edad)       # método del Mixin
+        self.validar_nombre(nombre)   
+        self.validar_edad(edad)       
         self.estudiantes.append({"nombre": nombre, "edad": edad})
 
 sistema = SistemaEstudiantes()
-sistema.registrar("Daniel", 20)   # ✅
-sistema.registrar("", 20)         # ❌ ValueError: Nombre vacío
+sistema.registrar("Daniel", 20)   
+sistema.registrar("", 20)         
 
 class A:
     def metodo(self): print("A")
@@ -28,7 +28,7 @@ class A:
 class B:
     def metodo(self): print("B")
 
-class C(A, B):  # hereda de A primero
+class C(A, B): 
     pass
 
-C().metodo()  # imprime "A" — Python usa MRO de izquierda a derecha
+C().metodo()  
